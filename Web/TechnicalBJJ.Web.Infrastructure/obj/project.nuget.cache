@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oUPrvCbSEWlLOGsHO78cxwdoTAa9wCODKbjxwBjNRKz3YU3Co7x5ptSC3R+kPfhlIYAKDI8NXjiK/0sE9Wa3Pg==",
+  "success": true,
+  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stefko\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\Stefko\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
+  ],
+  "logs": []
+}

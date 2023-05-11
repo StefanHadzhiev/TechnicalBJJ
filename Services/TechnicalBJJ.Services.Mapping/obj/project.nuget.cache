@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yl36g6wG5B3+EEvGG7bWTpc/f8SFDujRF2sx69xEJGm3kVExC+xFkWw0QXLzXG27NfIVQvDla7SxwTdiGqX9Ww==",
+  "success": true,
+  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Mapping\\TechnicalBJJ.Services.Mapping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Stefko\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Stefko\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.435\\stylecop.analyzers.1.2.0-beta.435.nupkg.sha512",
+    "C:\\Users\\Stefko\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.435\\stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
+  ],
+  "logs": []
+}
