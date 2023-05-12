@@ -4,7 +4,7 @@
 
     using TechnicalBJJ.Data.Common.Models;
 
-    public class Image : BaseModel<string>
+    public class Image : BaseDeletableModel<string>
     {
         public Image()
         {

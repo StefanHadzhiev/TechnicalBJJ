@@ -7,26 +7,22 @@
     using Microsoft.AspNetCore.Mvc;
     using TechnicalBJJ.Data;
     using System.Linq;
+    using TechnicalBJJ.Data.Common.Repositories;
+    using TechnicalBJJ.Data.Models;
+    using TechnicalBJJ.Services.Data;
 
     public class HomeController : BaseController
     {
-        private readonly ApplicationDbContext dbContext;
+        private readonly IGetCountsService getCountsService;
 
-        public HomeController(ApplicationDbContext dbContext)
+        public HomeController(IGetCountsService getCountsService)
         {
-            this.dbContext = dbContext;
+            this.getCountsService = getCountsService;
         }
 
         public IActionResult Index()
         {
-            var indexViewModel = new IndexViewModel()
-            {
-                TechniquesCount = this.dbContext.Techniques.Count(),
-                StartingPositionsCount = this.dbContext.StartingPositions.Count(),
-                StepsCount = this.dbContext.Steps.Count(),
-                ImagesCount = this.dbContext.Images.Count(),
-            };
-
+            var indexViewModel = this.getCountsService.GetCount();
             return this.View(indexViewModel);
         }
 

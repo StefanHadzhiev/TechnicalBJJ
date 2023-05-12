@@ -5,7 +5,7 @@ using TechnicalBJJ.Data.Common.Models;
 
 namespace TechnicalBJJ.Data.Models
 {
-    public class StartingPosition : BaseModel<string>
+    public class StartingPosition : BaseDeletableModel<string>
     {
         public StartingPosition()
         {

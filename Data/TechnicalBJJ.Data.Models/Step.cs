@@ -8,7 +8,7 @@ using TechnicalBJJ.Data.Common.Models;
 
 namespace TechnicalBJJ.Data.Models
 {
-    public class Step : BaseModel<string>
+    public class Step : BaseDeletableModel<string>
     {
         public Step()
         {

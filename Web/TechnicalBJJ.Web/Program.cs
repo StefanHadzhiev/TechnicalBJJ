@@ -19,6 +19,7 @@
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using TechnicalBJJ.Services.Data;
 
     public class Program
     {
@@ -60,6 +61,9 @@
             services.AddScoped(typeof(IDeletableEntityRepository<>), typeof(EfDeletableEntityRepository<>));
             services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
             services.AddScoped<IDbQueryRunner, DbQueryRunner>();
+
+            services.AddTransient<IGetCountsService, GetCountsService>();
+            services.AddTransient<ITechniqueService, TechniqueService>();
 
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
