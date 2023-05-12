@@ -11,6 +11,7 @@
 
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
+    using static System.Runtime.InteropServices.JavaScript.JSType;
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser, ApplicationRole, string>
     {
@@ -24,7 +25,13 @@
         {
         }
 
-        public DbSet<Setting> Settings { get; set; }
+        public DbSet<Technique> Techniques { get; set; }
+
+        public DbSet<Step> Steps { get; set; }
+
+        public DbSet<StartingPosition> StartingPositions { get; set; }
+
+        public DbSet<Image> Images { get; set; }
 
         public override int SaveChanges() => this.SaveChanges(true);
 

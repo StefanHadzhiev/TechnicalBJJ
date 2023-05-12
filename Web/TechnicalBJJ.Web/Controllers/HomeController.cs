@@ -5,17 +5,29 @@
     using TechnicalBJJ.Web.ViewModels;
 
     using Microsoft.AspNetCore.Mvc;
+    using TechnicalBJJ.Data;
+    using System.Linq;
 
     public class HomeController : BaseController
     {
-        public IActionResult Index()
+        private readonly ApplicationDbContext dbContext;
+
+        public HomeController(ApplicationDbContext dbContext)
         {
-            return this.View();
+            this.dbContext = dbContext;
         }
 
-        public IActionResult Privacy()
+        public IActionResult Index()
         {
-            return this.View();
+            var indexViewModel = new IndexViewModel()
+            {
+                TechniquesCount = this.dbContext.Techniques.Count(),
+                StartingPositionsCount = this.dbContext.StartingPositions.Count(),
+                StepsCount = this.dbContext.Steps.Count(),
+                ImagesCount = this.dbContext.Images.Count(),
+            };
+
+            return this.View(indexViewModel);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

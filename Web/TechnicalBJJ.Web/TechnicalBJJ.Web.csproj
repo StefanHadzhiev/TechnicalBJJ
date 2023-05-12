@@ -40,4 +40,8 @@
     <ProjectReference Include="..\TechnicalBJJ.Web.Infrastructure\TechnicalBJJ.Web.Infrastructure.csproj" />
     <ProjectReference Include="..\TechnicalBJJ.Web.ViewModels\TechnicalBJJ.Web.ViewModels.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Administration\Views\Dashboard\" />
+  </ItemGroup>
 </Project>

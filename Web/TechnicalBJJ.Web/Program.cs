@@ -8,7 +8,6 @@
     using TechnicalBJJ.Data.Models;
     using TechnicalBJJ.Data.Repositories;
     using TechnicalBJJ.Data.Seeding;
-    using TechnicalBJJ.Services.Data;
     using TechnicalBJJ.Services.Mapping;
     using TechnicalBJJ.Services.Messaging;
     using TechnicalBJJ.Web.ViewModels;
@@ -64,7 +63,6 @@
 
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
-            services.AddTransient<ISettingsService, SettingsService>();
         }
 
         private static void Configure(WebApplication app)

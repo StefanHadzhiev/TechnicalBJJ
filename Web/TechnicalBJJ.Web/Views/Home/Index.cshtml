@@ -1,9 +1,18 @@
 ﻿@using TechnicalBJJ.Common
+@model TechnicalBJJ.Web.ViewModels.IndexViewModel
 @{
     this.ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="col-md-4 offset-4">
+        <p>We have:</p>
+        <ul class="list-group">
+            <li class="list-group-item" style="background-color: black; color: white">Techniques: @Model.TechniquesCount</li>
+            <li class="list-group-item" style="background-color: saddlebrown; color: white">Starting Positions: @Model.StartingPositionsCount</li>
+            <li class="list-group-item" style="background-color: rebeccapurple; color: white">Steps: @Model.StepsCount</li>
+            <li class="list-group-item" style="background-color: blue; color: white">Images: @Model.ImagesCount</li>
+        </ul>
+    </div>
 </div>

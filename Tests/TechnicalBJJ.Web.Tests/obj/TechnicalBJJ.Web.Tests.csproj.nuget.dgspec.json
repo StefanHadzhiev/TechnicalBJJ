@@ -31,7 +31,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj": {
+                "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -287,6 +291,9 @@
               },
               "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Mapping\\TechnicalBJJ.Services.Mapping.csproj": {
                 "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Mapping\\TechnicalBJJ.Services.Mapping.csproj"
+              },
+              "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.ViewModels\\TechnicalBJJ.Web.ViewModels.csproj": {
+                "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.ViewModels\\TechnicalBJJ.Web.ViewModels.csproj"
               }
             }
           }
@@ -301,6 +308,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "StyleCop.Analyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",

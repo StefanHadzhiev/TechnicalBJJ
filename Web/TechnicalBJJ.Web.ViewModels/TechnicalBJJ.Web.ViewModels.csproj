@@ -23,4 +23,9 @@
     <ProjectReference Include="..\..\Services\TechnicalBJJ.Services.Mapping\TechnicalBJJ.Services.Mapping.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Techniques\" />
+    <Folder Include="Settings\" />
+  </ItemGroup>
+
 </Project>

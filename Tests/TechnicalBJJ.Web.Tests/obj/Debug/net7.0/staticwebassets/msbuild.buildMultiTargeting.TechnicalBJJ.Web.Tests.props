@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TechnicalBJJ.Web.Tests.props" />
+</Project>

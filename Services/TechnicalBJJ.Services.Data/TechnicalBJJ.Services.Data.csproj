@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435" PrivateAssets="all">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
@@ -21,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\TechnicalBJJ.Data.Common\TechnicalBJJ.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\TechnicalBJJ.Data.Models\TechnicalBJJ.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\TechnicalBJJ.Web.ViewModels\TechnicalBJJ.Web.ViewModels.csproj" />
     <ProjectReference Include="..\TechnicalBJJ.Services.Mapping\TechnicalBJJ.Services.Mapping.csproj" />
   </ItemGroup>
 

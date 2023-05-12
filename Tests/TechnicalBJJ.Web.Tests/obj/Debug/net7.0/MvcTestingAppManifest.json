@@ -1,0 +1,13 @@
+{
+  "TechnicalBJJ.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common",
+  "TechnicalBJJ.Data.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Common",
+  "TechnicalBJJ.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data",
+  "TechnicalBJJ.Data.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Models",
+  "TechnicalBJJ.Services.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Data",
+  "TechnicalBJJ.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services",
+  "TechnicalBJJ.Services.Mapping, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Mapping",
+  "TechnicalBJJ.Services.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Messaging",
+  "TechnicalBJJ.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web",
+  "TechnicalBJJ.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure",
+  "TechnicalBJJ.Web.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.ViewModels"
+}

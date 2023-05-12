@@ -23,6 +23,16 @@
             "related": ".xml"
           }
         }
+      },
+      "TechnicalBJJ.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TechnicalBJJ.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechnicalBJJ.Common.dll": {}
+        }
       }
     }
   },
@@ -155,12 +165,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TechnicalBJJ.Common/1.0.0": {
+      "type": "project",
+      "path": "../../TechnicalBJJ.Common/TechnicalBJJ.Common.csproj",
+      "msbuildProject": "../../TechnicalBJJ.Common/TechnicalBJJ.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "StyleCop.Analyzers >= 1.2.0-beta.435",
-      "System.ComponentModel.Annotations >= 5.0.0"
+      "System.ComponentModel.Annotations >= 5.0.0",
+      "TechnicalBJJ.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -194,7 +210,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

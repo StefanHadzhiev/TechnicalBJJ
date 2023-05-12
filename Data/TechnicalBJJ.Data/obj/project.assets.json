@@ -1396,7 +1396,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "System.ComponentModel.Annotations": "5.0.0"
+          "System.ComponentModel.Annotations": "5.0.0",
+          "TechnicalBJJ.Common": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TechnicalBJJ.Data.Common.dll": {}
