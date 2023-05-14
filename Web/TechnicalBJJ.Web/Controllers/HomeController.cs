@@ -10,11 +10,13 @@
     using TechnicalBJJ.Data.Common.Repositories;
     using TechnicalBJJ.Data.Models;
     using TechnicalBJJ.Services.Data;
+    using AutoMapper;
 
     public class HomeController : BaseController
     {
         private readonly IGetCountsService getCountsService;
 
+        // Implement automapper
         public HomeController(IGetCountsService getCountsService)
         {
             this.getCountsService = getCountsService;
@@ -22,8 +24,15 @@
 
         public IActionResult Index()
         {
-            var indexViewModel = this.getCountsService.GetCount();
-            return this.View(indexViewModel);
+            var counts = this.getCountsService.GetCount();
+            var viewModel = new IndexViewModel()
+            {
+                TechniquesCount = counts.TechniquesCount,
+                StartingPositionsCount = counts.StartingPositionsCount,
+                StepsCount = counts.StepsCount,
+                ImagesCount = counts.ImagesCount,
+            };
+            return this.View(viewModel);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

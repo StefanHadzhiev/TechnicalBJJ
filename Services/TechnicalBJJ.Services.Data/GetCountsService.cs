@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TechnicalBJJ.Data.Common.Repositories;
 using TechnicalBJJ.Data.Models;
+using TechnicalBJJ.Services.Data.DTOs;
 using TechnicalBJJ.Web.ViewModels;
 
 namespace TechnicalBJJ.Services.Data
@@ -28,9 +29,9 @@ namespace TechnicalBJJ.Services.Data
             this.imagesRepository = imagesRepository;
         }
 
-        public IndexViewModel GetCount()
+        public CountsDto GetCount()
         {
-            var viewModel = new IndexViewModel()
+            var viewModel = new CountsDto()
             {
                 TechniquesCount = this.techniquesRepository.All().Count(),
                 StartingPositionsCount = this.startingPositionRepository.All().Count(),
