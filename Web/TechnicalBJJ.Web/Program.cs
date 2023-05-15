@@ -65,6 +65,7 @@
 
             services.AddTransient<IGetCountsService, GetCountsService>();
             services.AddTransient<ITechniqueService, TechniqueService>();
+            services.AddTransient<IStartingPositionsService, StartingPositionsService>();
 
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();

@@ -1,23 +1,30 @@
 ﻿namespace TechnicalBJJ.Web.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
-    using TechnicalBJJ.Data;
+    using System.Linq;
+
     using TechnicalBJJ.Services.Data;
     using TechnicalBJJ.Web.ViewModels.InputModels;
 
     public class TechniqueController : Controller
     {
         private readonly ITechniqueService techniqueService;
+        private readonly IStartingPositionsService startingPositionsService;
 
-        public TechniqueController(ITechniqueService techniqueService)
+        public TechniqueController(
+            ITechniqueService techniqueService,
+            IStartingPositionsService startingPositionsService)
         {
             this.techniqueService = techniqueService;
+            this.startingPositionsService = startingPositionsService;
         }
 
         [HttpGet]
         public IActionResult Add()
         {
-            return this.View();
+            var viewModel = new AddTechniqueInputModel();
+            viewModel.StartingPositionsItems = this.startingPositionsService.GetStartingPositionsAsKeyValuePairs();
+            return this.View(viewModel);
         }
 
         [HttpPost]
@@ -25,7 +32,9 @@
         {
             if (!this.ModelState.IsValid)
             {
-                return this.View();
+                var viewModel = new AddTechniqueInputModel();
+                viewModel.StartingPositionsItems = this.startingPositionsService.GetStartingPositionsAsKeyValuePairs();
+                return this.View(viewModel);
             }
 
             // Add technique to database through service
