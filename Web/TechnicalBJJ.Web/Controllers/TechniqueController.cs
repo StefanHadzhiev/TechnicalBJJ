@@ -1,8 +1,7 @@
 ﻿namespace TechnicalBJJ.Web.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
-    using System.Linq;
-
+    using System.Threading.Tasks;
     using TechnicalBJJ.Services.Data;
     using TechnicalBJJ.Web.ViewModels.InputModels;
 
@@ -28,7 +27,7 @@
         }
 
         [HttpPost]
-        public IActionResult Add(AddTechniqueInputModel input)
+        public async Task<IActionResult> Add(AddTechniqueInputModel input)
         {
             if (!this.ModelState.IsValid)
             {
@@ -37,8 +36,7 @@
                 return this.View(viewModel);
             }
 
-            // Add technique to database through service
-            // Redirect to technique info page
+            await this.techniqueService.AddAsync(input);
             return this.Redirect("/");
         }
     }

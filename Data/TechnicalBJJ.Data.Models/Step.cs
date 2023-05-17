@@ -18,7 +18,7 @@ namespace TechnicalBJJ.Data.Models
         public int Number { get; set; }
 
         [Required]
-        [MaxLength(60)]
+        [MaxLength(400)]
         public string Description { get; set; }
 
         public string TechniqueId { get; set; }

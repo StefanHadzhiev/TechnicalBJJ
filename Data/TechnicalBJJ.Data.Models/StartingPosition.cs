@@ -10,6 +10,7 @@ namespace TechnicalBJJ.Data.Models
         public StartingPosition()
         {
             this.Id = Guid.NewGuid().ToString();
+            this.CreatedOn = DateTime.UtcNow;
             this.Techinques = new HashSet<Technique>();
         }
 
