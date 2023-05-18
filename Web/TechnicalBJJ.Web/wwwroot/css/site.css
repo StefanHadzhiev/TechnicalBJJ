@@ -76,3 +76,23 @@ body {
 #giRequiredCheckbox {
     display: block;
 }
+
+#techniquesRow {
+    background-color: black;
+    color: white;
+}
+
+#startingPositionsRow {
+    background-color: saddlebrown;
+    color: white;
+}
+
+#stepsRow {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+#imagesRow {
+    background-color: blue;
+    color: white;
+}

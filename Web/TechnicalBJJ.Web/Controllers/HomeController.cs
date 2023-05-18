@@ -35,7 +35,7 @@
                 StepsCount = counts.StepsCount,
                 ImagesCount = counts.ImagesCount,
             };
-            this.toastNotification.AddSuccessToastMessage("Welcome!");
+            this.toastNotification.AddErrorToastMessage("Oss!");
             return this.View(viewModel);
         }
 

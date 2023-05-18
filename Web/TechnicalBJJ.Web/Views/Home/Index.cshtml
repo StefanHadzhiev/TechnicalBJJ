@@ -8,11 +8,11 @@
     <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
     <div class="col-md-4 offset-4">
         <p>We have:</p>
-        <ul class="list-group">
-            <li class="list-group-item" style="background-color: black; color: white">Techniques: @Model.TechniquesCount</li>
-            <li class="list-group-item" style="background-color: saddlebrown; color: white">Starting Positions: @Model.StartingPositionsCount</li>
-            <li class="list-group-item" style="background-color: rebeccapurple; color: white">Steps: @Model.StepsCount</li>
-            <li class="list-group-item" style="background-color: blue; color: white">Images: @Model.ImagesCount</li>
+        <ul class="list-group shadow">
+            <li class="list-group-item" id="techniquesRow">Techniques: @Model.TechniquesCount</li>
+            <li class="list-group-item" id="startingPositionsRow">Starting Positions: @Model.StartingPositionsCount</li>
+            <li class="list-group-item" id="stepsRow">Steps: @Model.StepsCount</li>
+            <li class="list-group-item" id="imagesRow">Images: @Model.ImagesCount</li>
         </ul>
     </div>
 </div>
