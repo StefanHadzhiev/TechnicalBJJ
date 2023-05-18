@@ -12,50 +12,50 @@
 
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-    <div class="form-group">
+    <div class="form-group my-3">
         <label asp-for="Name"></label>
-        <input asp-for="Name" class="form-control" />
+        <input asp-for="Name" class="form-control shadow" />
         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
+    <div class="form-group my-3">
         <label asp-for="GiRequired"></label>
         <input asp-for="GiRequired" type="checkbox" id="giRequiredCheckbox" />
         <span asp-validation-for="GiRequired" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
+    <div class="form-group my-3">
         <label asp-for="Description"></label>
-        <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+        <textarea asp-for="Description" class="form-control shadow" rows="5"></textarea>
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
+    <div class="form-group my-3">
         <label asp-for="BeltProficiency"></label>
-        <select asp-for="BeltProficiency" class="form-control" 
+        <select asp-for="BeltProficiency" class="form-control shadow"
                 asp-items="@Html.GetEnumSelectList<BeltProficiency>()">
         </select>
         <span asp-validation-for="BeltProficiency" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
+    <div class="form-group my-3">
         <label asp-for="Difficulty"></label>
-        <select asp-for="Difficulty" class="form-control" 
+        <select asp-for="Difficulty" class="form-control shadow"
                 asp-items="@Html.GetEnumSelectList<Difficulty>()"></select>
         <span asp-validation-for="Difficulty" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
+    <div class="form-group my-3">
         <label asp-for="StartingPositionId"></label>
-        <select asp-for="StartingPositionId" class="form-control"
+        <select asp-for="StartingPositionId" class="form-control shadow"
                 asp-items="@categories">
         </select>
         <span asp-validation-for="StartingPositionId" class="text-danger"></span>
     </div>
 
-    <div id="stepsContainer">
+    <div class="form-group my-3" id="stepsContainer">
         <label asp-for="Steps"></label>
-        <a class="btn btn-success" onclick="addMoreSteps()">+</a>
+        <a class="btn btn-success shadow" onclick="addMoreSteps()">+</a>
     </div>
 
     <input type="submit" class="btn btn-primary"/>
@@ -66,7 +66,7 @@
             var stepIndex = 0;
         function addMoreSteps(){
             $("#stepsContainer")
-                .append("Step " + Number(stepIndex + 1) + " Description: <textarea class='form-control' name='Steps[" + stepIndex + "].Description'> </textarea>");
+                .append("<div class='mt-2 clearfix'> <label> Step " + Number(stepIndex + 1) + " Description:</label> <textarea class='form-control my-2' name='Steps[" + stepIndex + "].Description'> </textarea></div> ");
             stepIndex++;
         }
     </script>

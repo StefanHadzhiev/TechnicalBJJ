@@ -11,15 +11,18 @@
     using TechnicalBJJ.Data.Models;
     using TechnicalBJJ.Services.Data;
     using AutoMapper;
+    using NToastNotify;
 
     public class HomeController : BaseController
     {
         private readonly IGetCountsService getCountsService;
+        private readonly IToastNotification toastNotification;
 
         // Implement automapper
-        public HomeController(IGetCountsService getCountsService)
+        public HomeController(IGetCountsService getCountsService, IToastNotification toastNotification)
         {
             this.getCountsService = getCountsService;
+            this.toastNotification = toastNotification;
         }
 
         public IActionResult Index()
@@ -32,6 +35,7 @@
                 StepsCount = counts.StepsCount,
                 ImagesCount = counts.ImagesCount,
             };
+            this.toastNotification.AddSuccessToastMessage("Welcome!");
             return this.View(viewModel);
         }
 
