@@ -92,6 +92,7 @@ namespace TechnicalBJJ.Services.Data
                 foreach (var step in entity.Steps)
                 {
                     var stepViewModel = new StepDto();
+                    stepViewModel.Number = step.Number;
                     stepViewModel.Description = step.Description;
 
                     techniqueSteps.Add(stepViewModel);

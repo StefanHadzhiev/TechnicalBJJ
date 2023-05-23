@@ -63,6 +63,7 @@
                 foreach (var stepDto in dto.Steps)
                 {
                     var stepViewModel = new StepViewModel();
+                    stepViewModel.Number = stepDto.Number;
                     stepViewModel.Description = stepDto.Description;
 
                     techniqueSteps.Add(stepViewModel);
