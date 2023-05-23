@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -20,10 +21,16 @@ namespace TechnicalBJJ.Services.Data
 
         private readonly IDeletableEntityRepository<StartingPosition> startingPositionRepository;
 
-        public TechniqueService(IDeletableEntityRepository<Technique> techniquesRepository, IDeletableEntityRepository<StartingPosition> startingPositionRepository)
+        private readonly IDeletableEntityRepository<Step> stepsRepository;
+
+        public TechniqueService(
+            IDeletableEntityRepository<Technique> techniquesRepository, 
+            IDeletableEntityRepository<StartingPosition> startingPositionRepository,
+            IDeletableEntityRepository<Step> stepsRepository)
         {
             this.techniquesRepository = techniquesRepository;
             this.startingPositionRepository = startingPositionRepository;
+            this.stepsRepository = stepsRepository;
         }
 
         public async Task AddAsync(AddTechniqueInputModel model)
@@ -64,6 +71,13 @@ namespace TechnicalBJJ.Services.Data
                     .FirstOrDefault();
 
                 techniqueEntity.StartingPosition = startingPosition;
+
+                var steps = this.stepsRepository.All()
+                    .Where(s => s.TechniqueId == techniqueEntity.Id)
+                    .OrderBy(s => s.Number)
+                    .ToList();
+
+                techniqueEntity.Steps = steps;
             }
 
             foreach (var entity in techniqueEntities)
