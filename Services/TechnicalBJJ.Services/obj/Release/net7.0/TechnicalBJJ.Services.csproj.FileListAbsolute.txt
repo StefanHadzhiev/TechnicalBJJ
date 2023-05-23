@@ -1,0 +1,12 @@
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\bin\Release\net7.0\TechnicalBJJ.Services.deps.json
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\bin\Release\net7.0\TechnicalBJJ.Services.dll
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\bin\Release\net7.0\TechnicalBJJ.Services.pdb
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\obj\Release\net7.0\TechnicalBJJ.Services.csproj.AssemblyReference.cache
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\obj\Release\net7.0\TechnicalBJJ.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\obj\Release\net7.0\TechnicalBJJ.Services.AssemblyInfoInputs.cache
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\obj\Release\net7.0\TechnicalBJJ.Services.AssemblyInfo.cs
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\obj\Release\net7.0\TechnicalBJJ.Services.csproj.CoreCompileInputs.cache
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\obj\Release\net7.0\TechnicalBJJ.Services.dll
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\obj\Release\net7.0\refint\TechnicalBJJ.Services.dll
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\obj\Release\net7.0\TechnicalBJJ.Services.pdb
+D:\Docs\Programming\TechnicalBJJ\Services\TechnicalBJJ.Services\obj\Release\net7.0\ref\TechnicalBJJ.Services.dll

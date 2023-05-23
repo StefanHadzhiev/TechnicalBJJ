@@ -1,0 +1,17 @@
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\bin\Release\net7.0\TechnicalBJJ.Data.Models.deps.json
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\bin\Release\net7.0\TechnicalBJJ.Data.Models.dll
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\bin\Release\net7.0\TechnicalBJJ.Data.Models.pdb
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\bin\Release\net7.0\TechnicalBJJ.Common.dll
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\bin\Release\net7.0\TechnicalBJJ.Data.Common.dll
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\bin\Release\net7.0\TechnicalBJJ.Data.Common.pdb
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\bin\Release\net7.0\TechnicalBJJ.Common.pdb
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\obj\Release\net7.0\TechnicalBJJ.Data.Models.csproj.AssemblyReference.cache
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\obj\Release\net7.0\TechnicalBJJ.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\obj\Release\net7.0\TechnicalBJJ.Data.Models.AssemblyInfoInputs.cache
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\obj\Release\net7.0\TechnicalBJJ.Data.Models.AssemblyInfo.cs
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\obj\Release\net7.0\TechnicalBJJ.Data.Models.csproj.CoreCompileInputs.cache
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\obj\Release\net7.0\TechnicalBJJ.Data.Models.csproj.CopyComplete
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\obj\Release\net7.0\TechnicalBJJ.Data.Models.dll
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\obj\Release\net7.0\refint\TechnicalBJJ.Data.Models.dll
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\obj\Release\net7.0\TechnicalBJJ.Data.Models.pdb
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Models\obj\Release\net7.0\ref\TechnicalBJJ.Data.Models.dll

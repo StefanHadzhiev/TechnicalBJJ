@@ -1,0 +1,32 @@
+﻿@using TechnicalBJJ.Web.ViewModels.Technique;
+@{
+    this.ViewData["Title"] = "All Techniques";
+}
+@model AllTechniquesViewModel
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var technique in Model.Techniques)
+    {
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">@technique.Name</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">@technique.Description</p>
+                    <p class="card-text">Steps:</p>
+                    @foreach (var step in technique.Steps)
+                    {
+                        <p class="card-text">@($"{step.Number}.{step.Description.Trim()}")</p>   
+                    }
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Publish Date : @technique.PublishDate</small>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+
+

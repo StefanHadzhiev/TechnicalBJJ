@@ -1,0 +1,15 @@
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\bin\Release\net7.0\TechnicalBJJ.Data.Common.deps.json
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\bin\Release\net7.0\TechnicalBJJ.Data.Common.dll
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\bin\Release\net7.0\TechnicalBJJ.Data.Common.pdb
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\bin\Release\net7.0\TechnicalBJJ.Common.dll
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\bin\Release\net7.0\TechnicalBJJ.Common.pdb
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\obj\Release\net7.0\TechnicalBJJ.Data.Common.csproj.AssemblyReference.cache
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\obj\Release\net7.0\TechnicalBJJ.Data.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\obj\Release\net7.0\TechnicalBJJ.Data.Common.AssemblyInfoInputs.cache
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\obj\Release\net7.0\TechnicalBJJ.Data.Common.AssemblyInfo.cs
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\obj\Release\net7.0\TechnicalBJJ.Data.Common.csproj.CoreCompileInputs.cache
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\obj\Release\net7.0\TechnicalBJJ.Data.Common.csproj.CopyComplete
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\obj\Release\net7.0\TechnicalBJJ.Data.Common.dll
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\obj\Release\net7.0\refint\TechnicalBJJ.Data.Common.dll
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\obj\Release\net7.0\TechnicalBJJ.Data.Common.pdb
+D:\Docs\Programming\TechnicalBJJ\Data\TechnicalBJJ.Data.Common\obj\Release\net7.0\ref\TechnicalBJJ.Data.Common.dll
