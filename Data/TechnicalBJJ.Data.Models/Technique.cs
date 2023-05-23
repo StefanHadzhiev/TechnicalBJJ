@@ -39,6 +39,7 @@
 
         public virtual ApplicationUser User { get; set; }
 
+        [Required]
         public string StartingPositionId { get; set; }
 
         public virtual StartingPosition StartingPosition { get; set; }
