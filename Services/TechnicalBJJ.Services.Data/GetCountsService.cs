@@ -16,17 +16,21 @@ namespace TechnicalBJJ.Services.Data
         private readonly IDeletableEntityRepository<StartingPosition> startingPositionRepository;
         private readonly IDeletableEntityRepository<Step> stepsRepository;
         private readonly IDeletableEntityRepository<Image> imagesRepository;
+        private readonly IDeletableEntityRepository<ApplicationUser> usersRepository;
 
         public GetCountsService(
             IDeletableEntityRepository<Technique> techniquesRepository,
             IDeletableEntityRepository<StartingPosition> startingPositionsRepository,
             IDeletableEntityRepository<Step> stepsRepository,
-            IDeletableEntityRepository<Image> imagesRepository)
+            IDeletableEntityRepository<Image> imagesRepository,
+            IDeletableEntityRepository<ApplicationUser> usersRepository)
         {
             this.techniquesRepository = techniquesRepository;
             this.startingPositionRepository = startingPositionsRepository;
             this.stepsRepository = stepsRepository;
             this.imagesRepository = imagesRepository;
+            this.usersRepository = usersRepository;
+
         }
 
         public CountsDto GetCount()
@@ -37,6 +41,7 @@ namespace TechnicalBJJ.Services.Data
                 StartingPositionsCount = this.startingPositionRepository.All().Count(),
                 StepsCount = this.stepsRepository.All().Count(),
                 ImagesCount = this.imagesRepository.All().Count(),
+                UsersCount = this.usersRepository.All().Count(),
             };
 
             return viewModel;

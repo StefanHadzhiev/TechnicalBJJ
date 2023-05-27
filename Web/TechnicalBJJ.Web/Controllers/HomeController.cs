@@ -34,6 +34,7 @@
                 StartingPositionsCount = counts.StartingPositionsCount,
                 StepsCount = counts.StepsCount,
                 ImagesCount = counts.ImagesCount,
+                UsersCount = counts.UsersCount,
             };
             this.toastNotification.AddErrorToastMessage("Oss!");
             return this.View(viewModel);

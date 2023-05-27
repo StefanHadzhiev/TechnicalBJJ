@@ -1,4 +1,9 @@
-﻿@using TechnicalBJJ.Common
+﻿@using Microsoft.AspNetCore.Identity;
+@using TechnicalBJJ.Common
+@using TechnicalBJJ.Data.Models;
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,11 +17,9 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container">
-                <img 
-                    src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/bjj-logo-design-template-ee7d9864e60d5040766b14916cfce8c8_screen.jpg?ts=1678125373"
-                    width="50"
-                    style="border-radius:50%"
-                    />
+                <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/bjj-logo-design-template-ee7d9864e60d5040766b14916cfce8c8_screen.jpg?ts=1678125373"
+                     width="50"
+                     style="border-radius:50%" />
                 <a class="navbar-brand ms-4" asp-area="" asp-controller="Home" asp-action="Index">@GlobalConstants.SystemName</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -27,12 +30,15 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Technique" asp-action="Add">Add Technique</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Position" asp-action="Add">Add Position</a>
-                        </li>
+                        @if (this.SignInManager.IsSignedIn(this.User))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Technique" asp-action="Add">Add Technique</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Position" asp-action="Add">Add Position</a>
+                            </li>
+                        }
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Technique" asp-action="AllTechniques">All Techniques</a>
                         </li>
@@ -42,17 +48,17 @@
             </div>
         </nav>
     </header>
-    
+
     <div class="container">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @this.RenderBody()
         </main>
     </div>
-    
+
     <footer class="border-top footer text-muted bg-black">
         <div class="container text-light">
-            &copy; @DateTime.Now.Year - @GlobalConstants.SystemName 
+            &copy; @DateTime.Now.Year - @GlobalConstants.SystemName
         </div>
     </footer>
     <script src="~/css/" asp-append-version="true"></script>

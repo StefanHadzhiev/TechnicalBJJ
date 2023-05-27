@@ -15,5 +15,7 @@ namespace TechnicalBJJ.Web.ViewModels
         public int ImagesCount { get; set; }
 
         public int StepsCount { get; set; }
+
+        public int UsersCount { get; set; }
     }
 }

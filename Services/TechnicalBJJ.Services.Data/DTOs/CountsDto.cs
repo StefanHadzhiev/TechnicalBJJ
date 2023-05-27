@@ -15,5 +15,7 @@ namespace TechnicalBJJ.Services.Data.DTOs
         public int ImagesCount { get; set; }
 
         public int StepsCount { get; set; }
+
+        public int UsersCount { get; set; }
     }
 }
