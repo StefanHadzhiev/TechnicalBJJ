@@ -693,3 +693,13 @@ D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\obj\Debug\net7.0\s
 D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\obj\Debug\net7.0\TechnicalBJJ.Web.Tests.csproj.CopyComplete
 D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\obj\Debug\net7.0\TechnicalBJJ.Web.Tests.genruntimeconfig.cache
 D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\obj\Debug\net7.0\ref\TechnicalBJJ.Web.Tests.dll
+D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\bin\Debug\net7.0\System.Web.Mvc.dll
+D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\bin\Debug\net7.0\System.Web.Razor.dll
+D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\bin\Debug\net7.0\System.Web.Helpers.dll
+D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\bin\Debug\net7.0\System.Web.WebPages.Deployment.dll
+D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
+D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\bin\Debug\net7.0\System.Web.WebPages.dll
+D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll
+D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\bin\Debug\net7.0\NToastNotify.dll

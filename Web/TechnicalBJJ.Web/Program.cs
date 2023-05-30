@@ -1,17 +1,8 @@
-﻿namespace TechnicalBJJ.Web
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using TechnicalBJJ.Data;
+namespace TechnicalBJJ.Web
 {
-    using System.Reflection;
-
-    using TechnicalBJJ.Data;
-    using TechnicalBJJ.Data.Common;
-    using TechnicalBJJ.Data.Common.Repositories;
-    using TechnicalBJJ.Data.Models;
-    using TechnicalBJJ.Data.Repositories;
-    using TechnicalBJJ.Data.Seeding;
-    using TechnicalBJJ.Services.Mapping;
-    using TechnicalBJJ.Services.Messaging;
-    using TechnicalBJJ.Web.ViewModels;
-
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
@@ -19,8 +10,19 @@
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
-    using TechnicalBJJ.Services.Data;
     using NToastNotify;
+    using System;
+    using System.Reflection;
+    using TechnicalBJJ.Data;
+    using TechnicalBJJ.Data.Common;
+    using TechnicalBJJ.Data.Common.Repositories;
+    using TechnicalBJJ.Data.Models;
+    using TechnicalBJJ.Data.Repositories;
+    using TechnicalBJJ.Data.Seeding;
+    using TechnicalBJJ.Services.Data;
+    using TechnicalBJJ.Services.Mapping;
+    using TechnicalBJJ.Services.Messaging;
+    using TechnicalBJJ.Web.ViewModels;
 
     public class Program
     {
@@ -34,8 +36,6 @@
                 Timeout = 5000,
             });
 
-
-
             ConfigureServices(builder.Services, builder.Configuration);
             var app = builder.Build();
             Configure(app);
@@ -48,8 +48,10 @@
             services.AddDbContext<ApplicationDbContext>(
                 options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddIdentityCore<ApplicationUser>();
+
             services.AddDefaultIdentity<ApplicationUser>(IdentityOptionsProvider.GetIdentityOptions)
-                .AddRoles<ApplicationRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddRoles<ApplicationRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 
             services.Configure<CookiePolicyOptions>(
                 options =>
@@ -88,6 +90,7 @@
             {
                 var dbContext = serviceScope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
                 dbContext.Database.Migrate();
+
                 new ApplicationDbContextSeeder().SeedAsync(dbContext, serviceScope.ServiceProvider).GetAwaiter().GetResult();
             }
 

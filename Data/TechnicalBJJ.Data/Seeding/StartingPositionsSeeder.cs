@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TechnicalBJJ.Data.Models;
-
-namespace TechnicalBJJ.Data.Seeding
+﻿namespace TechnicalBJJ.Data.Seeding
 {
+    using System;
+    using System.Linq;
+    using System.Threading.Tasks;
+
+    using TechnicalBJJ.Data.Models;
+
     public class StartingPositionsSeeder : ISeeder
     {
         public async Task SeedAsync(ApplicationDbContext dbContext, IServiceProvider serviceProvider)
