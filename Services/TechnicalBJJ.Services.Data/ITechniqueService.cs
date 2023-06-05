@@ -10,8 +10,8 @@ namespace TechnicalBJJ.Services.Data
 {
     public interface ITechniqueService
     {
-        Task AddAsync(AddTechniqueInputModel model);
+        Task AddAsync(AddTechniqueInputModel model, string userId);
 
-        List<TechniqueDto> GetAllTechniques();
+        List<TechniqueDto> GetAllTechniques(int page, int itemsPerPage = 12);
     }
 }

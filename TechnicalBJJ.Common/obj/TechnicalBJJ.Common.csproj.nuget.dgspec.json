@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj": {}
+    "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj": {}
   },
   "projects": {
-    "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj": {
+    "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj",
+        "projectUniqueName": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj",
         "projectName": "TechnicalBJJ.Common",
-        "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj",
+        "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj",
         "packagesPath": "C:\\Users\\Stefko\\.nuget\\packages\\",
-        "outputPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\obj\\",
+        "outputPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\TechnicalBJJ.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

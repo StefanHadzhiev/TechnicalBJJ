@@ -9676,11 +9676,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\TechnicalBJJ.Data.csproj",
+      "projectUniqueName": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\TechnicalBJJ.Data.csproj",
       "projectName": "TechnicalBJJ.Data",
-      "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\TechnicalBJJ.Data.csproj",
+      "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\TechnicalBJJ.Data.csproj",
       "packagesPath": "C:\\Users\\Stefko\\.nuget\\packages\\",
-      "outputPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\obj\\",
+      "outputPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9702,14 +9702,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Common\\TechnicalBJJ.Data.Common.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Common\\TechnicalBJJ.Data.Common.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Common\\TechnicalBJJ.Data.Common.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Common\\TechnicalBJJ.Data.Common.csproj"
             },
-            "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Models\\TechnicalBJJ.Data.Models.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Models\\TechnicalBJJ.Data.Models.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Models\\TechnicalBJJ.Data.Models.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Models\\TechnicalBJJ.Data.Models.csproj"
             },
-            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "keUNqbxV2bGFl51w/dp8kONkyjMamowq6RAE/DijN7gbRo2pjeHTB5eLvztNJAP3DrpYsRXETQxnhtvoZUG7gA==",
+  "dgSpecHash": "x268M1QoMtB7nFR+6U0WqSi32M9IygHCGD8bhMnjRjs5rVd51Qh16x/kVCDBY2dKEfXZN8HGpVz+SAs+Uv9zGw==",
   "success": true,
-  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Common\\TechnicalBJJ.Data.Common.csproj",
+  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Common\\TechnicalBJJ.Data.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

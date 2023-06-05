@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj": {}
+    "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj": {
+    "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj",
         "projectName": "TechnicalBJJ.Web.Infrastructure",
-        "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj",
+        "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Stefko\\.nuget\\packages\\",
-        "outputPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\obj\\",
+        "outputPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

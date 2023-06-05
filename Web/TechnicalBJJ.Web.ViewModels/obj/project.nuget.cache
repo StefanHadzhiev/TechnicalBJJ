@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KftpUKObJB0U4mns4oNq4qFj/9RQDrfdmFBQxhIOnWWzJ71SrfJfsv/uYMUzNo1VyNsE4x3DUUKnTOXv4kFqQw==",
+  "dgSpecHash": "m6H4gaJS7IMDysMKGw6jW/cNqHGepfVR0KaIJqrYMVJeKY95HzzTj91f6dH0DmiKibJNZA+9l+XZlTH8pEOwjQ==",
   "success": true,
-  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.ViewModels\\TechnicalBJJ.Web.ViewModels.csproj",
+  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.ViewModels\\TechnicalBJJ.Web.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefko\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.9\\microsoft.aspnet.mvc.5.2.9.nupkg.sha512",

@@ -4914,7 +4914,8 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "NToastNotify": "8.0.0",
-          "Sendgrid": "9.28.1"
+          "Sendgrid": "9.28.1",
+          "TechnicalBJJ.Services.Mapping": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TechnicalBJJ.Services.Messaging.dll": {}
@@ -13310,11 +13311,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web\\TechnicalBJJ.Web.csproj",
+      "projectUniqueName": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web\\TechnicalBJJ.Web.csproj",
       "projectName": "TechnicalBJJ.Web",
-      "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web\\TechnicalBJJ.Web.csproj",
+      "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web\\TechnicalBJJ.Web.csproj",
       "packagesPath": "C:\\Users\\Stefko\\.nuget\\packages\\",
-      "outputPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web\\obj\\",
+      "outputPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -13336,32 +13337,32 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Models\\TechnicalBJJ.Data.Models.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Models\\TechnicalBJJ.Data.Models.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Models\\TechnicalBJJ.Data.Models.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data.Models\\TechnicalBJJ.Data.Models.csproj"
             },
-            "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\TechnicalBJJ.Data.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\TechnicalBJJ.Data.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\TechnicalBJJ.Data.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\TechnicalBJJ.Data.csproj"
             },
-            "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Data\\TechnicalBJJ.Services.Data.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Data\\TechnicalBJJ.Services.Data.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Data\\TechnicalBJJ.Services.Data.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Data\\TechnicalBJJ.Services.Data.csproj"
             },
-            "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Mapping\\TechnicalBJJ.Services.Mapping.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Mapping\\TechnicalBJJ.Services.Mapping.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Mapping\\TechnicalBJJ.Services.Mapping.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Mapping\\TechnicalBJJ.Services.Mapping.csproj"
             },
-            "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Messaging\\TechnicalBJJ.Services.Messaging.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Messaging\\TechnicalBJJ.Services.Messaging.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Messaging\\TechnicalBJJ.Services.Messaging.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Messaging\\TechnicalBJJ.Services.Messaging.csproj"
             },
-            "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services\\TechnicalBJJ.Services.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services\\TechnicalBJJ.Services.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Services\\TechnicalBJJ.Services\\TechnicalBJJ.Services.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Services\\TechnicalBJJ.Services\\TechnicalBJJ.Services.csproj"
             },
-            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\TechnicalBJJ.Common\\TechnicalBJJ.Common.csproj"
             },
-            "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.Infrastructure\\TechnicalBJJ.Web.Infrastructure.csproj"
             },
-            "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.ViewModels\\TechnicalBJJ.Web.ViewModels.csproj": {
-              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.ViewModels\\TechnicalBJJ.Web.ViewModels.csproj"
+            "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.ViewModels\\TechnicalBJJ.Web.ViewModels.csproj": {
+              "projectPath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web.ViewModels\\TechnicalBJJ.Web.ViewModels.csproj"
             }
           }
         }

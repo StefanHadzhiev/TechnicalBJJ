@@ -2,23 +2,21 @@
 @{
     this.ViewData["Title"] = "All Techniques";
 }
-@model AllTechniquesViewModel
+@model TechniqueListViewModel
 
+<h1>@this.ViewData["Title"]</h1>
+<hr />
 <div class="row row-cols-1 row-cols-md-3 g-4">
     @foreach (var technique in Model.Techniques)
     {
         <div class="col">
             <div class="card">
                 <div class="card-header">
+                    <img src="@technique.ImageUrl">
                     <h5 class="card-title">@technique.Name</h5>
                 </div>
                 <div class="card-body">
-                    <p class="card-text">@technique.Description</p>
-                    <p class="card-text">Steps:</p>
-                    @foreach (var step in technique.Steps)
-                    {
-                        <p class="card-text">@($"{step.Number}.{step.Description.Trim()}")</p>   
-                    }
+                    <p class="card-text">StartingPosition: @technique.StartingPositionName</p>
                 </div>
                 <div class="card-footer">
                     <small class="text-body-secondary">Publish Date : @technique.PublishDate</small>
@@ -26,7 +24,26 @@
             </div>
         </div>
     }
-
 </div>
+<hr />
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+            </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+            </a>
+        </li>
+    </ul>
+</nav>
 
 

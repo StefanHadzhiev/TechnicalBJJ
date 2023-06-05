@@ -1,8 +1,12 @@
 ﻿namespace TechnicalBJJ.Web.Controllers
 {
+    using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
     using System.Collections.Generic;
+    using System.Linq;
     using System.Threading.Tasks;
+    using TechnicalBJJ.Data.Models;
     using TechnicalBJJ.Services.Data;
     using TechnicalBJJ.Web.ViewModels.InputModels;
     using TechnicalBJJ.Web.ViewModels.StartingPosition;
@@ -13,16 +17,20 @@
     {
         private readonly ITechniqueService techniqueService;
         private readonly IStartingPositionsService startingPositionsService;
+        private readonly UserManager<ApplicationUser> userManager;
 
         public TechniqueController(
             ITechniqueService techniqueService,
-            IStartingPositionsService startingPositionsService)
+            IStartingPositionsService startingPositionsService,
+            UserManager<ApplicationUser> userManager)
         {
             this.techniqueService = techniqueService;
             this.startingPositionsService = startingPositionsService;
+            this.userManager = userManager;
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult Add()
         {
             var viewModel = new AddTechniqueInputModel();
@@ -31,6 +39,7 @@
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> Add(AddTechniqueInputModel input)
         {
             if (!this.ModelState.IsValid)
@@ -40,20 +49,24 @@
                 return this.View(viewModel);
             }
 
-            await this.techniqueService.AddAsync(input);
+            var userId = this.userManager.GetUserId(this.User);
+            await this.techniqueService.AddAsync(input, userId);
             return this.Redirect("/");
         }
 
+        // Techniques/All/5
         [HttpGet]
-        public IActionResult AllTechniques()
+        public IActionResult AllTechniques(int id)
         {
-            var viewModel = new AllTechniquesViewModel();
+            var viewModel = new TechniqueListViewModel();
+            viewModel.PageNumber = id;
 
-            var techniqueDtos = this.techniqueService.GetAllTechniques();
+
+            var techniqueDtos = this.techniqueService.GetAllTechniques(id);
 
             foreach (var dto in techniqueDtos)
             {
-                var techniqueViewModel = new TechniqueViewModel();
+                var techniqueInListViewModel = new TechniqueInListViewModel();
 
                 var startingPositionViewModel = new StartingPositionViewModel();
                 startingPositionViewModel.Name = dto.StartingPosition.Name;
@@ -67,18 +80,11 @@
                     stepViewModel.Description = stepDto.Description;
 
                     techniqueSteps.Add(stepViewModel);
-                }
+                } 
 
-                techniqueViewModel.Name = dto.Name;
-                techniqueViewModel.GiRequired = dto.GiRequired;
-                techniqueViewModel.Description = dto.Description;
-                techniqueViewModel.PublishDate = dto.PublishDate;
-                techniqueViewModel.BeltProficiency = dto.BeltProficiency;
-                techniqueViewModel.Difficulty = dto.Difficulty;
-                techniqueViewModel.StartingPosition = startingPositionViewModel;
-                techniqueViewModel.Steps = techniqueSteps;
+                techniqueInListViewModel.Name = dto.Name;
 
-                viewModel.Techniques.Add(techniqueViewModel);
+                viewModel.Techniques.Add(techniqueInListViewModel);
             }
 
             return this.View(viewModel);

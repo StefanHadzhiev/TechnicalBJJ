@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TechnicalBJJ.Web.Tests
 build_property.RootNamespace = TechnicalBJJ.Web.Tests
-build_property.ProjectDir = D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\
+build_property.ProjectDir = D:\Docs\Programming\TechnicalBJJ\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\Docs\Programming\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests
+build_property.MSBuildProjectDirectory = D:\Docs\Programming\TechnicalBJJ\TechnicalBJJ\Tests\TechnicalBJJ.Web.Tests
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Docs/Programming/TechnicalBJJ/stylecop.json]
+[D:/Docs/Programming/TechnicalBJJ/TechnicalBJJ/stylecop.json]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.CssScope = 

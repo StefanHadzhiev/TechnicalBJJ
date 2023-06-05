@@ -33,7 +33,7 @@ namespace TechnicalBJJ.Services.Data
             this.stepsRepository = stepsRepository;
         }
 
-        public async Task AddAsync(AddTechniqueInputModel model)
+        public async Task AddAsync(AddTechniqueInputModel model, string userId)
         {
             var technique = new Technique();
             technique.Name = model.Name;
@@ -43,6 +43,7 @@ namespace TechnicalBJJ.Services.Data
             technique.BeltProficiency = model.BeltProficiency;
             technique.Difficulty = model.Difficulty;
             technique.StartingPositionId = model.StartingPositionId;
+            technique.UserId = userId;
 
             int stepNumber = 1;
             foreach (var inputStep in model.Steps)
@@ -111,6 +112,27 @@ namespace TechnicalBJJ.Services.Data
             }
 
             return allTechniques;
+        }
+
+        public List<TechniqueDto> GetAllTechniques(int page, int itemsPerPage = 12)
+        {
+            var techniques = this.techniquesRepository.AllAsNoTracking()
+                                                      .OrderByDescending(x => x.Id)
+                                                      .Skip((page - 1) * itemsPerPage)
+                                                      .Take(itemsPerPage)
+                                                      .Select(x => new TechniqueInListViewModel()
+                                                      {
+                                                          Id = x.Id,
+                                                          Name = x.Name,
+                                                          StartingPositionName = x.StartingPosition.Name,
+                                                          PublishDate = x.PublishDate,
+                                                      })
+                                                      .ToList();
+            List<TechniqueDto> somelist = new List<TechniqueDto>();
+            return somelist;
+            // item 1-12 => page 1
+            // item 13-24 => page 2
+            // item 25-36 => page 3
         }
     }
 }

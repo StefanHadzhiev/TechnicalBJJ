@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EC0j5TV5axCDeQyqWLPIrbfPaZi8IfQCWXdJIip7Ht/HOo2FNwMXCFUWil4n/pcxBqnbWegrH1XFZ5MPWJMDzg==",
+  "dgSpecHash": "MyiK4taCoRG+ILmM8uZiUd6w4Fiumg7qr8n5hS35r4PT2S0pWsUCqOx9a6t85vpiiRLn/+2XxShEXgdNXg/zvA==",
   "success": true,
-  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\Tests\\Sandbox\\Sandbox.csproj",
+  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Tests\\Sandbox\\Sandbox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefko\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

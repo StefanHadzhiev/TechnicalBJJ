@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aCvVmZyda8Jlm9/dr+nNXLroSpHqEXqb640gTLP0+ftR71L+qHBT00wPx47liRcpOfsXiwLzMiVQb6cuBOFvNA==",
+  "dgSpecHash": "SydBAupo3+MQPdBc9qICOOqS0vPAJwNEwgUkyHGK/NxX5r6cQ3VAXXHPqnxR+xsj+RIvuDgr6C2e0jGEmgXLOw==",
   "success": true,
-  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\TechnicalBJJ.Data.csproj",
+  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Data\\TechnicalBJJ.Data\\TechnicalBJJ.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefko\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

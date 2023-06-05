@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uz5u/YOSirtvKoQ8XloKQcT8qyuRxAo2WeUAjKXldniwuasvfENM9JjcnxgkYkCEVqE6RwIapdPEzOI9N7F28A==",
+  "dgSpecHash": "Y0lcPP1JPrJmraOBL8FVQXwG5YoZ1i9c/C0ezLc0s0AtrPnCgYQgb636s6MZdfz5GzL7z6U3BSW0O4dYkegAzg==",
   "success": true,
-  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\Web\\TechnicalBJJ.Web\\TechnicalBJJ.Web.csproj",
+  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Web\\TechnicalBJJ.Web\\TechnicalBJJ.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefko\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

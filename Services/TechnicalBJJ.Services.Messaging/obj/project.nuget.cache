@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DRcqt565/RqkCQFfZEQ5WenMC3UZa7KhVWVf9P7F5z29khkDUnO8PNPWgooxE98iP94xHnq2nbFL9HSfm4bu0w==",
+  "dgSpecHash": "Mt/23raDIIuoqfrkXLhl/IaaE3YS/DzCrfmI/lNH77ZdRMMXhSDl34S92MonOjadGqjMn/DnGvyloaicQUWUvw==",
   "success": true,
-  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Messaging\\TechnicalBJJ.Services.Messaging.csproj",
+  "projectFilePath": "D:\\Docs\\Programming\\TechnicalBJJ\\TechnicalBJJ\\Services\\TechnicalBJJ.Services.Messaging\\TechnicalBJJ.Services.Messaging.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Stefko\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
@@ -38,7 +39,7 @@
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.codeanalysis.common\\4.0.0\\microsoft.codeanalysis.common.4.0.0.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.0.0\\microsoft.codeanalysis.csharp.4.0.0.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.0\\microsoft.codeanalysis.razor.6.0.0.nupkg.sha512",
-    "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.2.0\\microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512",
     "C:\\Users\\Stefko\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.2.0\\microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
